@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap')
+
+:root
+  color: white
+  font-size: 16px
+  margin: 0
+  padding: 0
+
+body
+  background-size: cover
+  background-attachment: fixed
+  @media (orientation: portrait)
+    background-image: url(../public/bg_portrait.png)
+  @media (orientation: landscape)
+    background-image: url(../public/bg_landscape.png)
+#mainTitle
+  text-align: center
+  font-size: 20px
+  margin-top: 70px
+
+.socialBox
+  display: flex
+  flex-direction: column
+  font-family: 'Montserrat', sans-serif
+  font-size: 32px
+  text-align: center
+  align-items: center
+
+.socialLink
+  display: flex
+  color: inherit
+  text-decoration: inherit
+  margin-top: 30px
+  p
+    margin-left: 10px
+    margin-block-start: 0
+    margin-block-end: 0
+
+#teaser
+  margin-top: 80px
+  text-align: center
+  font-family: 'Montserrat', sans-serif
